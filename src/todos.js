@@ -14,7 +14,7 @@ function addTodo(title) {
   const todo = {
     id: nextId++,
     title: title,
-    completed: "wrong value"
+    completed: false
   };
   todos.push(todo);
   return todo;
