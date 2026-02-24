@@ -66,6 +66,4 @@ jobs:
 
       - name: Pipeline complete
         run: echo "🎉 All checks passed! App is ready to deploy."
-```
-
 
